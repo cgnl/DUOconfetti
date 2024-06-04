@@ -1,5 +1,5 @@
 # DUOconfetti
-Ook zo teleurgesteld dat DUO je niet feliciteert na het afbetalen van je studieschuld?!!
+Ook zo teleurgesteld dat DUO je niet feliciteert na het afbetalen van je studieschuld?!!\
 Daarom is er nu een Chrome-extensie die confetti toont als je geen studieschuld hebt op Mijn DUO!
 
 # Installatie-instructies:
