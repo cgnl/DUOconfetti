@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "DUOconfetti",
+  "version": "1.0",
+  "description": "Feliciteert je op Mijn DUO wanneer je geen studieschuld hebt!",
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "https://mijn.duo.nl/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mijn.duo.nl/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
